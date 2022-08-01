@@ -76,28 +76,34 @@ def get_readable_time(seconds: int) -> str:
 YUMEKO_IMG = "https://telegra.ph/file/f3e0ab0181de319da2569.mp4"
 
 PM_START_TEXT = """
-**Hey I am Rikka** [ㅤ](https://telegra.ph/file/32012e86471dabfe78f2b.mp4)
-×————————————————————×
-**×I'm a Powerful Group Manager Bot With Cool Modules. Feel free to add me to your groups!**
-×————————————————————×
-☉ **×Click the button below for more.**
+
+────「*Hey, I'm Mitsuri* [🌸](https://telegra.ph/file/f63ce11f76db7f086af1f.jpg) 」────
+
+*×× I'm a Hashira! A Anime themed advance group management bot with a lot of advance Features! ××*
+
+➖➖➖➖➖➖➖➖➖➖
+
+*×× Try The Help & Command Buttons Below To Know My Abilities ××*
+
+➖➖➖➖➖➖➖➖➖➖
+
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Rikka To Your group ➕", url="http://t.me/Rikka_Tyrant_bot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="About", callback_data="yumeko_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/tyranteyeeee"
-        ),
+            text="🙃 Add Mitsuri to your Group 🙃", url="t.me/Hunter_Zoro_Robot?startgroup=true"),
     ],
     [
+        InlineKeyboardButton(text="⚙ EST", url="https://t.me/est_official"),
+        InlineKeyboardButton(text="🎉 EST News", url="https://t.me/estanimes"),
+        InlineKeyboardButton(text="❗Updates", url="https://t.me/DevXAssociation"),
+    ],
+    [
+        InlineKeyboardButton(text="🔐 Help and Commands", callback_data="help_back"),
         
-        InlineKeyboardButton(
-            text="❓ Help&Commands", callback_data="help_back"),
-    ],
+   
+    ], 
 ]
 
 
